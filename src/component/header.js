@@ -36,13 +36,13 @@ const Header = () => {
                         <div className="list-items" ><a href="/contact">Contact</a></div>
                         <div className="list-items" ><a href="/portfolio">Portfolio</a></div>
                         <div className="list-items" ><a href="/about-us">About Us</a></div>
-                        <span className="icon_open"
+                        <div className="icon_open"
                             role="button"
                             tabIndex={0}
                             onClick={showDrawer}
                             onKeyDown={showDrawer} >
                             <FontAwesomeIcon className="icon_open_icon" icon={faBars} />
-                        </span>
+                        </div>
                     </div>
                 </div>
             </header>

@@ -48,8 +48,6 @@ const urlArchived = [
 ]
 
 
-
-
 const Drawer = (props) => {
 
   const { showhide, hideDrawer } = props;
