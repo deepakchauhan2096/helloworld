@@ -41,7 +41,7 @@ const Header = () => {
                             tabIndex={0}
                             onClick={showDrawer}
                             onKeyDown={showDrawer} >
-                            <FontAwesomeIcon className="icon_open_icon" icon={faBars} />
+                            <FontAwesomeIcon className="icon_open_icon" style={{fontSize: 20}} icon={faBars} />
                         </div>
                     </div>
                 </div>
