@@ -66,7 +66,7 @@ const Drawer = (props) => {
             tabIndex={0} 
             onKeyDown={hideDrawer} 
             onClick={hideDrawer}>
-            <FontAwesomeIcon icon={faTimes} className="faTimes" />
+            <FontAwesomeIcon icon={faTimes} className="faTimes" style={{fontSize: "20px"}}/>
             </div>
           </div>
 
