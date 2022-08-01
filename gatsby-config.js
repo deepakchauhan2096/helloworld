@@ -1,10 +1,20 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+
+  plugins: [
+    {
+      resolve: `gatsby-source-wordpress`,
+      options:
+      {
+        url: "https://cms.vervebot.io/graphql",
+        type: {
+          MediaItem: {
+            localFile: {
+              requestConcurrency: 50,
+            },
+          },
+        },
+      },
+    },
+  ],
 }
+
