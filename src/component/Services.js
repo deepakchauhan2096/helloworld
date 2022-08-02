@@ -14,7 +14,7 @@ const Services = (props) => {
 
   const { serviceHeading } = props;
 
-  const cardData = [
+  const data = [
 
     {
       buttonName: "ICMS",
@@ -69,9 +69,9 @@ const Services = (props) => {
 
   
 
-              {/* <div className="col-lg-6">
+              <div className="col-lg-6">
                 <div className='section_two'>
-                  {cardData.map((items) => (
+                  {data.map((items) => (
                     <>
                       <div className='section_two_line_one'></div>
                       <div className="section_two_content pl-2">
@@ -89,7 +89,7 @@ const Services = (props) => {
 
                      ))}
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
 
