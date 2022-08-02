@@ -1,6 +1,5 @@
 import React from 'react'
 import "./drawer.css"
-import './draweraccordian.css'
 import logo from '../images/logo.png';
 
 
@@ -70,7 +69,7 @@ const Drawer = (props) => {
 
 
 
-              <p className="company_discription">Get the Best Website Development & Mobile Application Development Services In New Jersey</p>
+              <p className="company_discription">Get the Best Website Development and Mobile Application Development Services In New Jersey</p>
               <div className="company_details">
                 <a className="company_phone" href="tel:+13478093270"><i className="fa fa-phone" style={{ fontSize: "24px" }}></i>&nbsp;<span className="icon_details" >+1 347-809-3270</span></a>
                 <a className="company_mail" href="mailto:info@vervebot.io"><i className="fa fa-envelope" style={{ fontSize: "24px" }}></i>&nbsp;<span className="icon_details">info@vervebot.io</span></a>
