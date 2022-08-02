@@ -1,8 +1,10 @@
 import React from "react"
-import Header from "../component/header"
+import Header from "../component/Header"
 import "../style/style.css"
 import { Helmet } from "react-helmet";
 import Main from "../component/Main";
+import Services from "../component/Services";
+
 
 export default function Home() {
 
@@ -16,6 +18,10 @@ export default function Home() {
     <Main
       mainHeading="We Have The Solutions To Grow Your Business"
     />
+    <Services
+        mainHeading="Get your dream Mobile App Development built in not time."
+      />
+    
 
   </div>
 }

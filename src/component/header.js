@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./header.css"
-import verbotlogo from "./logo.png"
-import Drawer from './drawer'
+import Drawer from './Drawer'
+import logo from '../images/logo.png'
 
 
 
@@ -24,7 +24,7 @@ const Header = () => {
             <header style={{ backgroundColor: "#ffffff" }}>
                 <div className="container container-large">
                     <div className='nav_bar'>
-                        <a href='/'><img className="web-logo-main" src={verbotlogo} alt='web-logo' /></a>
+                        <a href='/'><img className="web-logo-main" src={logo} alt='web-logo' /></a>
                         <div className="list-items" ><a href="/">Home</a></div>
                         <div className="list-items" ><a href="/icms">ICMS</a></div>
                         <div className="list-items" ><a href="/faq">faq</a></div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./drawer.css"
 import './draweraccordian.css'
-import drawer_company_logo from "./logo.png";
+import logo from '../images/logo.png';
 
 
 const Drawer = (props) => {
@@ -36,7 +36,7 @@ const Drawer = (props) => {
 
             <div className="row">
               <div className="drawer_company_logo">
-                <img src={drawer_company_logo} alt="vervebot" height={100} width={100} />
+                <img src={logo} alt="vervebot" height={100} width={100} />
               </div>
             </div>
             <div className="row">
