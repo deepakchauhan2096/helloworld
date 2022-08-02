@@ -2,7 +2,6 @@ import React from "react"
 import "../style/style.css"
 import { Helmet } from "react-helmet";
 import Header from "../component/Header"
-import Services from "../component/Services";
 import ServiceSection from "../component/ServiceSection";
 
 
@@ -18,10 +17,6 @@ export default function Home() {
     <ServiceSection
       mainHeading="We Have The Solutions To Grow Your Business"
     />
-    <Services
-        serviceHeading="Get your dream Mobile App Development built in not time."
-      />
-    
 
   </div>
 }
