@@ -11,7 +11,7 @@ import Category from './Category';
 
 
 const Services = (props) => {
-  
+
   const { serviceHeading } = props;
 
   const cardData = [
@@ -39,9 +39,7 @@ const Services = (props) => {
   return (
     <div className='bg_trending_news'>
       <div className="container">
-        {/* ........................................Main section ............................ */}
         <div className="row mb-5 padding_top_bottom">
-          {/* ........................................Menu section ............................ */}
           <div className='col-lg-9'>
             <div className="row">
               <div className="trendingMenu">
@@ -57,10 +55,8 @@ const Services = (props) => {
               </div>
             </div>
 
-            {/* ........................................content section ............................ */}
 
-            <div className="row">
-              {/* ........................................ section one ............................ */}
+            <div className="row"> 
               <div className="col-lg-6">
                 <div className="section_one">
                   <img src={Mobile} alt='scale-img' className='image' />
@@ -71,11 +67,11 @@ const Services = (props) => {
                 </div>
               </div>
 
-              {/* ........................................ section two ............................ */}
+  
 
               <div className="col-lg-6">
                 <div className='section_two'>
-                  {cardData.map((items) => (
+                  {cardData.map((items) => {
                     <>
                       <div className='section_two_line_one'></div>
                       <div className="section_two_content pl-2">
@@ -83,7 +79,6 @@ const Services = (props) => {
                         <div>
 
                           <span><button className='p-2' style={{ width: '120px' }}>{items.buttonName}</button> &nbsp;
-                            {/* <FontAwesomeIcon icon={faCalendar} /> 12/10/2020 */}
 
                           </span>
                           <b className='pt-3'>{items.caption}</b>
@@ -92,7 +87,7 @@ const Services = (props) => {
                       <div className='section_two_line_two'></div>
                     </>
 
-                  ))}
+                     })}
                 </div>
               </div>
             </div>
