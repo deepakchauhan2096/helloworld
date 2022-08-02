@@ -21,7 +21,7 @@ const Category = () => {
                         <button className=' p-2'>IOT</button>
                     </div>
                     <div className="bussiness">
-                        <img src={Seo} alt='Food & Health' className="business-img" style={{width:"100%", height:"100%", }} />
+                        <img src={Seo} alt='Food and Health' className="business-img" style={{width:"100%", height:"100%" }} />
                         <button className=' p-2'>Digital Marketing</button>
                     </div>
                     <div className="bussiness text-center">

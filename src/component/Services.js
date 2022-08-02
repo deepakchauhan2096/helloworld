@@ -1,6 +1,5 @@
 import React from 'react'
 import "./services.css"
-// import Web from "../images/Web.jpeg";
 import Mobile from "../images/mobile.jpg";
 import CMS from "../images/cms.png";
 import img5 from "../images/img5.jpg"
@@ -8,32 +7,33 @@ import Category from './Category';
 
 
 
-const cardData = [
-
-  {
-    buttonName: "ICMS",
-    image: img5,
-    caption: "ML Powered Invoice Management System"
-  },
-
-  {
-    buttonName: "Company Tools",
-    image: CMS,
-    caption: "CRM/CMS/POS to take your bussiness on Next level"
-  }
-  ,
-  {
-    buttonName: "Web",
-    image: img5,
-    caption: "Websites and E-Commerce platform to Scale your business"
-  }
 
 
 
-
-]
 const Services = (props) => {
   const { mainHeading } = props;
+
+  const cardData = [
+
+    {
+      buttonName: "ICMS",
+      image: img5,
+      caption: "ML Powered Invoice Management System"
+    },
+  
+    {
+      buttonName: "Company Tools",
+      image: CMS,
+      caption: "CRM/CMS/POS to take your bussiness on Next level"
+    }
+    ,
+    {
+      buttonName: "Web",
+      image: img5,
+      caption: "Websites and E-Commerce platform to Scale your business"
+    }
+  
+  ]
 
   return (
     <div className='bg_trending_news'>
