@@ -1,8 +1,8 @@
 import React from 'react'
 import "./services.css"
-import Mobile from "../images/mobile.jpg";
-import CMS from "../images/cms.png";
-import Img5 from "../images/img5.jpg"
+import mobile from "../images/mobile.jpg";
+import cms from "../images/cms.png";
+import img5 from "../images/img5.jpg"
 import Category from './Category';
 
 
@@ -14,27 +14,27 @@ const Services = (props) => {
 
   const { serviceHeading } = props;
 
-  // const cardData = [
+  const cardData = [
 
-  //   {
-  //     buttonName: "ICMS",
-  //     image: Img5,
-  //     caption: "ML Powered Invoice Management System"
-  //   },
+    {
+      buttonName: "ICMS",
+      image: img5,
+      caption: "ML Powered Invoice Management System"
+    },
   
-  //   {
-  //     buttonName: "Company Tools",
-  //     image: CMS,
-  //     caption: "CRM/CMS/POS to take your bussiness on Next level"
-  //   }
-  //   ,
-  //   {
-  //     buttonName: "Web",
-  //     image: Img5,
-  //     caption: "Websites and E-Commerce platform to Scale your business"
-  //   }
+    {
+      buttonName: "Company Tools",
+      image: cms,
+      caption: "CRM/CMS/POS to take your bussiness on Next level"
+    }
+    ,
+    {
+      buttonName: "Web",
+      image: img5,
+      caption: "Websites and E-Commerce platform to Scale your business"
+    }
   
-  // ]
+  ]
 
   return (
     <div className='bg_trending_news'>
@@ -59,7 +59,7 @@ const Services = (props) => {
             <div className="row"> 
               <div className="col-lg-6">
                 <div className="section_one">
-                  <img src={Mobile} alt='scale-img' className='image' />
+                  <img src={mobile} alt='scale-img' className='image' />
                   <div >
                     <button>App Development</button>
                     <h4><b>{serviceHeading}</b></h4>

@@ -1,8 +1,8 @@
 import React from 'react'
 import "./category.css"
-import Seo from "../images/seo.png";
-import Branding from "../images/branding.jpg";
-import Iot from "../images/iot.png";
+import seo from "../images/seo.png";
+import branding from "../images/branding.jpg";
+import iot from "../images/iot.png";
 
 
 const Category = () => {
@@ -17,15 +17,15 @@ const Category = () => {
             <div className="row" style={{ paddingLeft: 0, paddingRight: 0, paddingBottom: 0 }}>
                 <div className="category_sidebar">
                     <div className="bussiness">
-                        <img src={Iot} alt='Bussiness' className="business-img" style={{width:"100%", height:"100%", }} />
+                        <img src={iot} alt='Bussiness' className="business-img" style={{width:"100%", height:"100%", }} />
                         <button className=' p-2'>IOT</button>
                     </div>
                     <div className="bussiness">
-                        <img src={Seo} alt='Food and Health' className="business-img" style={{width:"100%", height:"100%" }} />
+                        <img src={seo} alt='Food and Health' className="business-img" style={{width:"100%", height:"100%" }} />
                         <button className=' p-2'>Digital Marketing</button>
                     </div>
                     <div className="bussiness text-center">
-                        <img src={Branding} style={{width:"100%", height:"100%", }} alt='vedio' className="business-img" />
+                        <img src={branding} style={{width:"100%", height:"100%", }} alt='vedio' className="business-img" />
 
                         <button className='p-2'>Branding</button>
                         
