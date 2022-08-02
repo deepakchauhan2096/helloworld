@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 import "./header.css"
 import verbotlogo from "./logo.png"
 import Drawer from './drawer'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { Helmet } from "react-helmet";
 
 
 
@@ -24,10 +21,6 @@ const Header = () => {
 
     return (
         <>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-            </Helmet>
             <header style={{ backgroundColor: "#ffffff" }}>
                 <div className="container container-large">
                     <div className='nav_bar'>
@@ -46,7 +39,6 @@ const Header = () => {
                             tabIndex={0}
                             onClick={showDrawer}
                             onKeyDown={showDrawer} >
-                            {/* <FontAwesomeIcon className="icon_open_icon" style={{ fontSize: "20px" }} icon={faBars} /> */}
                             <i className="fa fa-bars icon_open_icon" style={{fontSize:"24px"}}></i>
                         </div>
                     </div>
