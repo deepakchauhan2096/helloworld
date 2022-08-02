@@ -18,7 +18,7 @@ const ServiceSection = (props) => {
                         <div className="content-container">
                             <div className="col-md-6">
                                 <span className="calender">
-                                    Get the Best Website Development & Mobile Application Development Services In New Jersey
+                                    Get the Best Website Development and Mobile Application Development Services In New Jersey
                                 </span>
                                 <h3 className='main_heading'>{mainHeading}</h3>
                                 <button className="arrow-button">Learn more<span className="arrow"></span>
