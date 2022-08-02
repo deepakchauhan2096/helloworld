@@ -1,0 +1,208 @@
+.drawer {
+    width: 310px;
+    position: fixed;
+    background: #ffffff;
+    z-index:999988;
+    color: black;
+    top: 0;
+    height: 300vh;
+    transition: .5s;
+    right: 0;
+    padding: 0 0px 30px 15px;
+    overflow-y: auto;
+    display: none;
+}
+
+.drawer_body {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    position: fixed;
+    color: black;
+    z-index:999999;
+    top: 0;
+    height: 300vh;
+    transition: .5s;
+    right: 0;
+    overflow: hidden;
+    display: none;
+}
+
+
+
+.hideDrawer {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #ededed;
+    color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 22px 22px 20px 22px;
+    transition: ease-in-out 0.3s;
+}
+
+.hideDrawer:hover {
+    background: #3596d9;
+    color: #ededed;
+    transition: ease-in-out 0.3s;
+}
+
+.faTimes {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.social_links {
+    margin-top: 15px;
+}
+
+.social_links a {
+    padding: 0 3px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.social_links a:hover {
+    color: #f63a3a;
+}
+
+.social_links a:focus {
+    color: #999;
+}
+
+
+
+.drawer_company_logo {
+    margin-top: 30px;
+}
+
+.company_discription {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 24px;
+}
+
+.company_details{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 130px 0;
+}
+
+.company_phone,.company_mail {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.company_phone, .company_mail {
+    text-decoration: none;
+}
+
+.company_details a {
+    text-decoration: none;
+    color: #15445a;
+}
+
+.company_details a .icon_details:hover {
+    text-decoration: none;
+    color: #f63a3a;
+}
+
+.Accordian_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #ededed;
+}
+
+.AccordianTitle {
+    padding: 10px 10px 10px 0;
+}
+
+.AccordianTitle a {
+    text-decoration: none;
+    color: #000;
+}
+
+.AccordianTitle a:hover {
+    color:#f63a3a;
+}
+
+.AccordianTitle:hover {
+    color:#f63a3a;
+ }
+
+.AccordianDown {
+    margin-right: 10px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+    background: #fbf4f4
+}
+
+.AccordianList {
+    margin-right: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.AccordianList a {
+   display: block;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   border-bottom: 1px solid #ededed;
+   color: #777;
+   transition: all .3s ease-out 0s;
+}
+
+.AccordianList a:hover {
+    color:#f63a3a;
+ }
+
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #15445a; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #15445a; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@media only screen and (max-width:768px) {
+    .drawer , .drawer_body {
+       display: flex;
+    }
+}
