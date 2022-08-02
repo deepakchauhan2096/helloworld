@@ -4,7 +4,7 @@ import "./main.css";
 
 
 
-const Main = (props) => {
+const ServiceSection = (props) => {
 
 
     const { mainHeading} = props;
@@ -33,4 +33,4 @@ const Main = (props) => {
     )
 }
 
-export default Main
+export default ServiceSection
