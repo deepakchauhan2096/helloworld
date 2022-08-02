@@ -1,5 +1,5 @@
 import React from 'react';
-import "./servicsection.css";
+import "./main.css";
 
 
 
