@@ -11,7 +11,8 @@ import Category from './Category';
 
 
 const Services = (props) => {
-  const { mainHeading } = props;
+  
+  const { serviceHeading } = props;
 
   const cardData = [
 
@@ -65,7 +66,7 @@ const Services = (props) => {
                   <img src={Mobile} alt='scale-img' className='image' />
                   <div >
                     <button>App Development</button>
-                    <h4><b>{mainHeading}</b></h4>
+                    <h4><b>{serviceHeading}</b></h4>
                   </div>
                 </div>
               </div>

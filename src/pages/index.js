@@ -19,7 +19,7 @@ export default function Home() {
       mainHeading="We Have The Solutions To Grow Your Business"
     />
     <Services
-        mainHeading="Get your dream Mobile App Development built in not time."
+        serviceHeading="Get your dream Mobile App Development built in not time."
       />
     
 
