@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Helmet from 'react-helmet'
 import Services from '../components/Services'
 import Banner from '../components/Banner'
+import "../style/style.css"
 
 const index = () => {
   return (

@@ -10,10 +10,7 @@ import iot from "../images/iot.png";
 
 
 
-const Services = (props) => {
-
-  const { serviceheading } = props;
-
+const Services = () => {
 
   return (
     <div className='bg_trending_news'>
@@ -41,7 +38,7 @@ const Services = (props) => {
                   <img src={mobile} alt='scale-img' className='image' />
                   <div >
                     <button>App Development</button>
-                    <h4><b>{serviceheading}</b></h4>
+                    <h4><b>Get your dream Mobile App Development built in not time.</b></h4>
                   </div>
                 </div>
               </div>
