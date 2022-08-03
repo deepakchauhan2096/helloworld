@@ -1,10 +1,9 @@
 import React from 'react';
 import "./banner.css";
 
-const Banner = (props) => {
+const Banner = () => {
 
 
-    const { mainheading} = props;
 
     return (
 
@@ -17,7 +16,7 @@ const Banner = (props) => {
                                 <span className="calender">
                                     Get the Best Website Development and Mobile Application Development Services In New Jersey
                                 </span>
-                                <h3 className='main_heading'>{mainheading}</h3>
+                                <h3 className='main_heading'>We Have The Solutions To Grow Your Business</h3>
                                 <button className="arrow-button">Learn more<span className="arrow"></span>
                                 </button>
                             </div>

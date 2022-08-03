@@ -4,7 +4,7 @@
 
 
 .Main-container {
-  background:url(../images/main-banner.png);
+  /* background:url(../images/main-banner.png); */
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
@@ -17,7 +17,7 @@
   position: absolute;
   right: 15%;
   top:20%;
-  content: url(../images/hero-img.png);
+  /* content: url(../images/hero-img.png); */
   z-index: -1;
 }
 
@@ -178,7 +178,7 @@
     position: absolute;
     right: 0;
     top:35%;
-    content: url(../images/hero-img.png);
+    /* content: url(../images/hero-img.png); */
     z-index: -1;
   }
   
