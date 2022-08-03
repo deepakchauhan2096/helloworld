@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import "./header.css"
+import "./navbar.css"
 import Drawer from './Drawer'
 import logo from '../images/logo.png'
 
 
 
-const Header = () => {
+const Navbar = () => {
 
 
 
@@ -50,4 +50,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Navbar
