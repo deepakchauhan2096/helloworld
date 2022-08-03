@@ -1,9 +1,7 @@
 import React from 'react';
-import "./banner.css";
+import 'Banner.css';
 
 const Banner = () => {
-
-
 
     return (
 
