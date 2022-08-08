@@ -4,6 +4,9 @@ import mobile from "../images/mobile.jpg";
 import seo from "../images/seo.png";
 import branding from "../images/branding.jpg";
 import iot from "../images/iot.png";
+import img3 from "../images/img3.jpg"
+import img4 from "../images/img4.jpg"
+import img5 from "../images/img5.jpg"
 
 
 
@@ -11,6 +14,25 @@ import iot from "../images/iot.png";
 
 
 const Services = () => {
+
+  const cardData = [{
+    image: img5,
+    caption: "Lorem ipsum dolor"
+  },
+  
+  {
+    image: img3,
+    caption: "Lorem ipsum dolor"
+  }
+    ,
+  {
+    image: img4,
+    caption: "Lorem ipsum dolor"
+  }
+]
+
+
+
 
   return (
     <div className='bg_trending_news'>
@@ -42,7 +64,24 @@ const Services = () => {
                   </div>
                 </div>
               </div>
+              <div className="col-lg-6">
+                <div className='section_two'>
+                  {cardData.map((items) => (
+                    <>
+                      <div className='section_two_line_one'></div>
+                      <div className="section_two_content">
+                        <img src={items.image} alt="img" />
+                        <div>
+                          <span><button>Technology</button></span>
+                          <b>{items.caption}</b>
+                        </div>
+                      </div>
+                      <div className='section_two_line_two'></div>
+                    </>
 
+                  ))}
+                </div>
+              </div>
 
             </div>
           </div>
